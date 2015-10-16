@@ -4,7 +4,7 @@ set :database, "sqlite3:database.sqlite3"
 end
 
 configure :production do
- db = URI.parse(ENV['DATABASE_URL'] || 'postgres:///localhost/mydb')
+ db = URI.parse(ENV['DATABASE_URL'] || 'postgres://xqatqaaqpsmxby:imbdtwQw5eWgtZcSFY0myJch5C@ec2-54-204-15-48.compute-1.amazonaws.com:5432/d34hh5q9m0com2')
 
  ActiveRecord::Base.establish_connection(
    :adapter  => db.scheme == 'postgres' ? 'postgresql' : db.scheme,
