@@ -4,8 +4,6 @@ require 'sinatra/flash'
 require './environments'
 enable :sessions
 
-set :database, "sqlite3:database.sqlite3"
-
 require './models'
 
 get '/' do
