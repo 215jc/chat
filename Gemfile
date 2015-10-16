@@ -9,7 +9,7 @@ gem 'rake'
 gem 'sinatra-flash'
 
 group :development do
-	gem 'sqlite3'
+	gem 'pg'
 end
 
 group :production do
