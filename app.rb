@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'sinatra/activerecord'
 require 'sinatra/flash'
+require './environments'
 enable :sessions
 
 set :database, "sqlite3:database.sqlite3"
