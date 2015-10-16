@@ -2,7 +2,7 @@ require 'sinatra'
 require 'sinatra/activerecord'
 require 'sinatra/flash'
 require './environments'
-enable :sessions
+# enable :sessions
 
 require './models'
 
